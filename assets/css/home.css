@@ -178,6 +178,22 @@ html[light-mode="dark"] .socialicon {
     box-shadow: var(--kaggle);
 }
 
+.download-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(3, 3, 3);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* round button shape */
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #32CD32;
+    /* darker shade of lime on hover */
+}
+
 
 /*
 ---------------------------

@@ -7,15 +7,15 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [{
         title: "Practicum",
         cardImage: "assets/images/experience-page/SANTAROSA.png",
-        place: "Software Development",
-        time: "(April 22, 2024 - present)",
+        place: "City Government of Santa Rosa",
+        time: "Software Development",
         desp: "developed a government vaccination page aimed at facilitating the vaccination process for citizens, leveraging PHP and SQL to create dynamic forms that fetch and display real-time data from databases. The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard. Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems",
     },
     {
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
-        place: "Software Development",
-        time: "( )",
+        place: "Green Guardian",
+        time: "Software Development",
         desp: "The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO. It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens. ",
     },
     {
