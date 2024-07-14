@@ -9,7 +9,7 @@ const exp = [{
         cardImage: "assets/images/experience-page/SANTAROSA.png",
         place: "Software Development",
         time: "(April 22, 2024 - present)",
-        desp: "<li>Developed a vaccination page for the government, aimed at facilitating the vaccination process for the citizens.</li> <>Leveraged PHP and SQL to create dynamic forms that seamlessly fetch and display relevant data from the database, enabling real-time updates and efficient data management.</li>",
+        desp: "<li>Developed a vaccination page for the government, aimed at facilitating the vaccination process for the citizens.</li> <li>Leveraged PHP and SQL to create dynamic forms that seamlessly fetch and display relevant data from the database, enabling real-time updates and efficient data management.</li>",
     },
     {
         title: "Practicum",
@@ -23,14 +23,14 @@ const exp = [{
         cardImage: "assets/images/experience-page/gg.png",
         place: "Software Development",
         time: "(April 22, 2024 - present)",
-        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+        desp: "<li>We aim to design, develop, and integrate an IT infrastructure equipped with IoT-based system for the real-time monitoring, management, and detection of open plastic combustion location detection within Barangay San Francisco and CENRO.</li> ",
     },
     {
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
         place: "Scope and Limitations",
         time: "(April 22, 2024 - present)",
-        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+        desp: "<li>This study focuses on the digital optimization of the citizen complaint process involving barangay personnel and CENRO in the community of Barangay San Francisco, Binan. The primary users are the barangay personnel, CENRO personnel and Citizens.</li> ",
     },
 
 ];
