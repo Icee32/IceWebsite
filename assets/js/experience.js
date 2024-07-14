@@ -2,28 +2,37 @@ AOS.init();
 
 //  Work experience cards
 
+
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [{
-        title: "Software Development Intern",
+        title: "Practicum",
         cardImage: "assets/images/experience-page/SANTAROSA.png",
-        place: "City Government of Sta.Rosa",
+        place: "Software Development",
         time: "(April 22, 2024 - present)",
-        desp: "<li>Developed a vaccination page for the government, aimed at facilitating the vaccination process for the citizens.</li> <li>Leveraged PHP and SQL to create dynamic forms that seamlessly fetch and display relevant data from the database, enabling real-time updates and efficient data management.</li> ",
+        desp: "<li>Developed a vaccination page for the government, aimed at facilitating the vaccination process for the citizens.</li> <>Leveraged PHP and SQL to create dynamic forms that seamlessly fetch and display relevant data from the database, enabling real-time updates and efficient data management.</li>",
     },
-    /*{
-        title: "",
-        cardImage: "assets/images/experience-page/4pics1word.png",
-        place: "Google Summer Of Code",
-        time: "(Mar - Aug, 2019)",
-        desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-    },*/
-    /*{
-        title: "Research Intern",
-        cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-        place: "IIT, Bombay",
-        time: "(Dec, 19 - Jan, 20)",
-        desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-    },*/
+    {
+        title: "Practicum",
+        cardImage: "assets/images/experience-page/SANTAROSA.png",
+        place: "Scope and Limitations",
+        time: "(April 22, 2024 - present)",
+        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+    },
+    {
+        title: "Capstone",
+        cardImage: "assets/images/experience-page/gg.png",
+        place: "Software Development",
+        time: "(April 22, 2024 - present)",
+        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+    },
+    {
+        title: "Capstone",
+        cardImage: "assets/images/experience-page/gg.png",
+        place: "Scope and Limitations",
+        time: "(April 22, 2024 - present)",
+        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+    },
+
 ];
 
 const showCards2 = () => {

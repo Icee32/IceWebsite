@@ -102,6 +102,8 @@ const projects = [{
     },
 ];
 
+
+
 // function for rendering project cards data
 const showCards = () => {
     let output = "";
