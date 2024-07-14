@@ -34,7 +34,7 @@ const techStack = [{
         langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
     },
     {
-        langImage: "assets/images/techstack-page/git.png",
+        langImage: "assets/images/techstack-page/csharp.png",
         langName: "C#",
         langDesc: "<li>C# (C-sharp) is a modern, object-oriented programming language developed by Microsoft that runs on the .NET Framework. It is designed for building a variety of applications that run on the .NET Framework.</li>",
     },
@@ -49,19 +49,24 @@ const techStack = [{
         langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
     },
     {
-        langImage: "assets/images/techstack-page/c.png",
+        langImage: "assets/images/techstack-page/Laravel.png",
         langName: "Laravel",
         langDesc: "<li>Laravel is a web application framework with expressive, elegant syntax. It is designed for web artisans to create seamless web applications with a robust and easy-to-understand structure.</li>"
     },
     {
-        langImage: "assets/images/techstack-page/c.png",
+        langImage: "assets/images/techstack-page/arduino.png",
         langName: "Arduino",
         langDesc: "<li>Arduino is an open-source electronics platform based on easy-to-use hardware and software. It is intended for anyone making interactive projects, allowing them to create digital devices and interactive objects that can sense and control objects in the physical world.</li>"
     },
     {
-        langImage: "assets/images/techstack-page/c.png",
+        langImage: "assets/images/techstack-page/xamarin.png",
         langName: "Xamarin",
         langDesc: "<li>Xamarin is an open-source platform for building modern and performant applications for iOS, Android, and Windows with .NET. It allows developers to use a single codebase to create cross-platform applications.</li>"
+    },
+    {
+        langImage: "assets/images/techstack-page/git.png",
+        langName: "Git",
+        langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
     },
 ];
 
