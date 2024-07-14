@@ -107,6 +107,11 @@ section>div {
 
 .my_experience {
     color: #37e722;
+    text-shadow: 0px 0px 15px #37E722;
+}
+
+html[light-mode="light"] .my_experience {
+    text-shadow: none !important;
 }
 
 .sub-heading {

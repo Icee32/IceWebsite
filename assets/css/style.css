@@ -35,9 +35,9 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
     --bg-mybtn: rgb(230, 109, 129);
-    --bg-nav: #6617cb;
-    --bg-nav-img: linear-gradient(315deg, #6617cb 0%, #882463 74%);
-    --bg-footer: linear-gradient(315deg, #6617cb 0%, #882463 74%);
+    --bg-nav: #37E722;
+    --bg-nav-img: linear-gradient(315deg, #37E722 0%, #24883d 74%);
+    --bg-footer: linear-gradient(315deg, #37E722 0%, #24883D 74%);
     --bg: #191919;
     --text: #ffffff;
     --text-color: #fff;
@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px #bb86fc;
+    -webkit-box-shadow: inset 0 0 6px #1bd124;
     border-radius: 2px;
     background: #f1f1f1;
 }
@@ -81,8 +81,8 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
     border-radius: 2px;
     max-height: 10px;
-    -webkit-box-shadow: inset 0 0 6px #bb86fc;
-    background: #bb86fc;
+    -webkit-box-shadow: inset 0 0 6px #1BD124;
+    background: #1BD124;
     transition: 0.3s;
 }
 
@@ -118,7 +118,7 @@ body {
 #btnScrollToTop {
     width: 50px;
     height: 50px;
-    background-color: #bb86fc;
+    background-color: #1BD124 !important;
     color: #fff;
     margin: 8px;
     border: none;
@@ -282,7 +282,7 @@ html {
 .dark_toggler:checked:before {
     transform: translate(150%);
     transition: all 0.9s;
-    background-color: #bb86fc;
+    background-color: #1BD124;
 }
 
 
@@ -807,7 +807,7 @@ Contact Form In Footer
     font-size: 25px;
     font-weight: 200;
     line-height: 22px;
-    border-bottom: 3px solid #bb86fc;
+    border-bottom: 3px solid #1BD124;
 }
 
 .form-header {
@@ -836,7 +836,7 @@ form {
 }
 
 .form-style-6 h1 {
-    background: #bb86fc;
+    background: #1BD124;
     font-size: 140%;
     font-weight: 300;
     text-align: center;
@@ -866,7 +866,7 @@ form {
     background: transparent;
     margin-bottom: 4%;
     border: #000;
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #1BD124;
     padding: 3%;
     color: rgb(107, 105, 105);
     font: 95% Arial, Helvetica, sans-serif;
@@ -883,9 +883,9 @@ form {
 .form-style-6 input[type="url"]:focus,
 .form-style-6 textarea:focus,
 .form-style-6 select:focus {
-    box-shadow: 0 0 5px #bb86fc;
+    box-shadow: 0 0 5px #1BD124;
     padding: 3%;
-    border: 1px solid #bb86fc;
+    border: 1px solid #1BD124;
     border-radius: 2px;
 }
 
@@ -897,8 +897,8 @@ form {
     width: 100%;
     margin-top: 2rem;
     padding: 3%;
-    background: #bb86fc;
-    border-bottom: 2px solid #bb86fc;
+    background: #1BD124;
+    border-bottom: 2px solid #1BD124;
     border-radius: 23px;
     border-top-style: none;
     border-right-style: none;
@@ -1041,7 +1041,7 @@ button {
     border-radius: 50px;
     border-style: none;
     transition: 0.5s ease background-color, 0.5s ease box-shadow;
-    background: #bb86fc;
+    background: #1BD124;
 }
 
 #lnch_btn {

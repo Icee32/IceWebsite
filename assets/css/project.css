@@ -39,7 +39,12 @@ body {
 /*color of projects page heading*/
 
 .my_projects {
-    color: #37E722;
+    color: #37e722;
+    text-shadow: 0px 0px 15px #37E722;
+}
+
+html[light-mode="light"] .my_projects {
+    text-shadow: none !important;
 }
 
 

@@ -40,7 +40,12 @@ html {
 /*color of education page heading*/
 
 .edu_background {
-    color: #373722;
+    color: #37e722;
+    text-shadow: 0px 0px 15px #37E722;
+}
+
+html[light-mode="light"] .edu_background {
+    text-shadow: none !important;
 }
 
 
