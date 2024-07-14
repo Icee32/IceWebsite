@@ -9,7 +9,7 @@ const projects = [{
         cardImage: "assets/images/project-page/quiz.jpg",
         description: "A quiz app built using basic react.",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-        Previewlink: "",
+        Previewlink: "assets/images/project-page/quiz.jpg",
         Githublink: "",
     },
     {

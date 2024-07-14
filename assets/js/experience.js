@@ -9,27 +9,20 @@ const exp = [{
         cardImage: "assets/images/experience-page/SANTAROSA.png",
         place: "Software Development",
         time: "(April 22, 2024 - present)",
-        desp: "<li>Developed a vaccination page for the government, aimed at facilitating the vaccination process for the citizens.</li> <li>Leveraged PHP and SQL to create dynamic forms that seamlessly fetch and display relevant data from the database, enabling real-time updates and efficient data management.</li>",
-    },
-    {
-        title: "Practicum",
-        cardImage: "assets/images/experience-page/SANTAROSA.png",
-        place: "Scope and Limitations",
-        time: "(April 22, 2024 - present)",
-        desp: "<li>Focuses on registration and data management. </li> <li>Excludes features like appointment scheduling or integration with existing government systems.</li> ",
+        desp: "developed a government vaccination page aimed at facilitating the vaccination process for citizens, leveraging PHP and SQL to create dynamic forms that fetch and display real-time data from databases. The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard. Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems",
     },
     {
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
         place: "Software Development",
-        time: "(April 22, 2024 - present)",
-        desp: "<li>We aim to design, develop, and integrate an IT infrastructure equipped with IoT-based system for the real-time monitoring, management, and detection of open plastic combustion location detection within Barangay San Francisco and CENRO.</li> ",
+        time: "( )",
+        desp: "The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO. It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens. ",
     },
     {
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
         place: "Scope and Limitations",
-        time: "(April 22, 2024 - present)",
+        time: "( )",
         desp: "<li>This study focuses on the digital optimization of the citizen complaint process involving barangay personnel and CENRO in the community of Barangay San Francisco, Binan. The primary users are the barangay personnel, CENRO personnel and Citizens.</li> ",
     },
 
@@ -68,31 +61,30 @@ document.addEventListener("DOMContentLoaded", showCards2);
 // Volunteership Cards
 
 const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-    /*{
-            title: "GirlScript Summer Of Code 2020",
-            cardImage: "assets/images/experience-page/1.jpg",
-            description: "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-        },
-        {
-            title: "StudentCode-in 2020",
-            cardImage: "assets/images/experience-page/2.jpg",
-            description: "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-        },
-        {
-            title: "PClub Summer Of Code 2020",
-            cardImage: "assets/images/experience-page/3.jpg",
-            description: "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-        },
-        {
-            title: "Hakin-Codes",
-            cardImage: "assets/images/experience-page/4.jpg",
-            description: "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-        },*/
-    {
+const volunteershipcards = [{
         "title": "Front-end Web-Developer",
         "cardImage": "assets/images/experience-page/Santarosa.png",
         "description": "Designed and implemented user-friendly web interfaces, ensuring seamless user experience and responsiveness."
+    },
+    {
+        "title": "Back-end Web-Developer",
+        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "description": "Developed and maintained server-side logic, and database management"
+    },
+    {
+        "title": "Back-end Web-Developer",
+        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "description": "Developed and maintained server-side logic, and database management"
+    },
+    {
+        "title": "Back-end Web-Developer",
+        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "description": "Developed and maintained server-side logic, and database management"
+    },
+    {
+        "title": "Back-end Web-Developer",
+        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "description": "Developed and maintained server-side logic, and database management"
     },
     {
         "title": "Back-end Web-Developer",
