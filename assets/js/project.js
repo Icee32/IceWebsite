@@ -13,11 +13,11 @@ const projects = [{
         Githublink: "",
     },
     {
-        title: "GreenGuardian",
-        cardImage: "assets/images/project-page/greenguardian.png",
-        description: "A website that displays data from an IOT device",
+        title: "Vaccination Form&Dashboard",
+        cardImage: "assets/images/project-page/adminvaccine.jpg",
+        description: "Displays vaccine data's on the website",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-        Previewlink: "assets/images/project-page/greenguardian.png",
+        Previewlink: "assets/images/project-page/adminvaccine.jpg",
         Githublink: "",
     },
     {

@@ -62,6 +62,43 @@ html[data-theme="dark"] {
 }
 
 
+/* Light mode styles */
+
+.download-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    /* Light background color */
+    color: #333;
+    /* Dark text color */
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* Round button shape */
+    transition: background-color 0.3s ease;
+    border: 2px solid #ccc;
+    /* Light border */
+}
+
+.download-button:hover {
+    background-color: #363636;
+    /* Lighter shade on hover */
+}
+
+
+/* Dark mode styles */
+
+html[data-theme="dark"] .download-button {
+    background-color: #333;
+    /* Dark background color */
+    color: #f0f0f0;
+    /* Light text color */
+    border-color: #666;
+    /* Dark border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Dark shadow */
+}
+
+
 /*
 ---------------------------
       SCROLLBAR

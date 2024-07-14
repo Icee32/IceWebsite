@@ -72,13 +72,13 @@ const volunteershipcards = [{
         "description": "Developed and maintained server-side logic, and database management"
     },
     {
-        "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "title": "Front-end Web-Developer",
+        "cardImage": "assets/images/experience-page/gg.png",
         "description": "Developed and maintained server-side logic, and database management"
     },
     {
         "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
+        "cardImage": "assets/images/experience-page/gg.png",
         "description": "Developed and maintained server-side logic, and database management"
     },
     {
@@ -116,6 +116,20 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [{
+        title: "NSE 1",
+        subtitle: "Network Security Associate",
+        image: "assets/images/experience-page/Fortinet.png",
+        desp: "is an entry-level certification providing essential knowledge in network security. It covers basics like security policies, threat analysis, firewall operation, and key technologies, ideal for beginners in the field.",
+        href: "assets/images/Course_Completion_Certificate_NSE1"
+    },
+    {
+        title: "NSE 2",
+        subtitle: "Network Secuirty Associate 2",
+        image: "assets/images/experience-page/Fortinet.png",
+        desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
+        href: "assets/images/Course_Completion_Certificate_NSE2"
+    },
+    {
         title: "Xaltius",
         subtitle: "Cyber Security Webinar",
         image: "assets/images/experience-page/xaltius.png",
@@ -129,20 +143,6 @@ const mentor = [{
         desp: "Hosted a webinar focused on Artificial Intelligence, providing insights and knowledge to participants on the latest AI technologies and their applications.",
         href: "https://www.facebook.com/goldstoneEDU?fref=mentions&paipv=0&eav=AfYWMWtYrfLN9XnLP6RyURuOEySbke6zpXOTj4ILRMKaBZ9E7c2hq-VZ7sZwhH7m9As&_rdr"
     },
-    /*{
-        title: "WaffleHacks",
-        subtitle: "Judge",
-        image: "assets/images/experience-page/wafflehacks.png",
-        desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-        href: "https://wafflehacks.org/",
-    },*/
-    /*{
-        title: "Elevate Tech",
-        subtitle: "Judge",
-        image: "assets/images/experience-page/elevate.png",
-        desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-        href: "https://elevatetech.codes/",
-    },*/
 ];
 
 const showCards3 = () => {
