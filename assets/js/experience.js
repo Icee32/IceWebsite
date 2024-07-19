@@ -5,11 +5,11 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [{
-        title: "Practicum",
+        title: "Internship",
         cardImage: "assets/images/experience-page/SANTAROSA.png",
         place: "City Government of Santa Rosa",
-        time: "Software Development",
-        desp: "developed a government vaccination page aimed at facilitating the vaccination process for citizens, leveraging PHP and SQL to create dynamic forms that fetch and display real-time data from databases. The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard. Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems",
+        time: "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
+        desp: "Developed a government vaccination page aimed at facilitating the vaccination process for citizens, leveraging PHP and SQL to create dynamic forms that fetch and display real-time data from databases. The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard. Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems",
     },
     {
         title: "Capstone",
@@ -57,33 +57,33 @@ const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [{
         "title": "Aseprite",
         "cardImage": "assets/images/experience-page/aseprite.png",
-        "description": ""
+        "description": "A powerful sprite editor for pixel art, game development, and animation, providing tools for creating detailed and vibrant designs."
     },
     {
         "title": "VS Code",
         "cardImage": "assets/images/experience-page/vscode.png",
-        "description": ""
+        "description": "A popular, open-source code editor developed by Microsoft, known for its versatility, extensions, and robust debugging capabilities."
     },
     {
         "title": "Figma",
         "cardImage": "assets/images/experience-page/figma.png",
-        "description": ""
+        "description": "A collaborative interface design tool that allows multiple users to design and prototype in real-time, streamlining the design workflow."
     },
     {
         "title": "Canva",
         "cardImage": "assets/images/experience-page/canva.png",
-        "description": ""
+        "description": "An intuitive online graphic design platform that enables users to create stunning visuals, from social media posts to presentations, with ease."
     },
     {
         "title": "Adobe Photoshop",
         "cardImage": "assets/images/experience-page/adobeps.png",
-        "description": ""
+        "description": "The industry-standard software for photo editing and graphic design, offering a wide range of tools for image manipulation and digital art creation."
     },
     {
         "title": "Adobe Premiere Pro",
         "cardImage": "assets/images/experience-page/adobepr.png",
-        "description": ""
-    },
+        "description": "A leading video editing software used by professionals, providing advanced tools for editing, color correction, and video production."
+    }
 ];
 
 const showCards = () => {
@@ -109,32 +109,46 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [{
-        title: "NSE 1",
+        title: "CompTIA Labs / Certificate",
+        subtitle: "IT Fundamentals",
+        image: "assets/images/experience-page/Fortinet.png",
+        desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
+        href: "assets/images/experience-page/compTIA proof.jpg"
+    },
+    {
+        title: "NSE 1 / Certificate",
         subtitle: "Network Security Associate",
         image: "assets/images/experience-page/Fortinet.png",
         desp: "is an entry-level certification providing essential knowledge in network security. It covers basics like security policies, threat analysis, firewall operation, and key technologies, ideal for beginners in the field.",
-        href: "assets/images/Course_Completion_Certificate_NSE1"
+        href: "assets/images/experience-page/Course_Completion_Certificate_NSE1.pdf"
     },
     {
-        title: "NSE 2",
+        title: "NSE 2 / Certificate",
         subtitle: "Network Secuirty Associate 2",
         image: "assets/images/experience-page/Fortinet.png",
         desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
-        href: "assets/images/Course_Completion_Certificate_NSE2"
+        href: "assets/images/experience-page/Course_Completion_Certificate_NSE2.pdf"
     },
     {
-        title: "Xaltius",
+        title: "NSE 2 / Certificate",
+        subtitle: "Network Secuirty Associate 2",
+        image: "assets/images/experience-page/Fortinet.png",
+        desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
+        href: "assets/images/experience-page/Course_Completion_Certificate_NSE2.pdf"
+    },
+    {
+        title: "Xaltius / Seminar",
         subtitle: "Cyber Security Webinar",
         image: "assets/images/experience-page/xaltius.png",
         desp: "Responsible for guiding 100s of participants globally in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-        href: "https://xaltius.tech"
+        href: "assets/images/experience-page/xaltiusatt.jpg"
     },
     {
-        title: "Goldstone Education",
+        title: "Goldstone Education / Seminar",
         subtitle: "A.I. Webinar",
         image: "assets/images/experience-page/goldstone.jpg",
         desp: "Hosted a webinar focused on Artificial Intelligence, providing insights and knowledge to participants on the latest AI technologies and their applications.",
-        href: "https://www.facebook.com/goldstoneEDU?fref=mentions&paipv=0&eav=AfYWMWtYrfLN9XnLP6RyURuOEySbke6zpXOTj4ILRMKaBZ9E7c2hq-VZ7sZwhH7m9As&_rdr"
+        href: "assets/images/experience-page/goldstoneatt.jpg"
     },
 ];
 
@@ -151,7 +165,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="${href}" class="blog-slider__button">Read More</a>   
+          <a href="${href}" class="blog-slider__button">View</a>   
         </div>
       </div>
       `)
