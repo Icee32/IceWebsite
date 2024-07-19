@@ -13,7 +13,15 @@ const projects = [{
         Githublink: "",
     },
     {
-        title: "Vaccination Form&Dashboard",
+        title: "Sta.Rosa Vaccination Forms",
+        cardImage: "assets/images/project-page/flappybird.png",
+        description: "Displays vaccine data's on the website",
+        tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+        Previewlink: "assets/images/project-page/quiz.jpg",
+        Githublink: "",
+    },
+    {
+        title: "Sta.Rosa Vaccination Admin Dashboard",
         cardImage: "assets/images/project-page/adminvaccine.jpg",
         description: "Displays vaccine data's on the website",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -29,7 +37,7 @@ const projects = [{
         Githublink: "",
     },
     {
-        title: "Flappy Bird",
+        title: "4Pics 1Word",
         cardImage: "assets/images/project-page/flappybird.png",
         description: "Flappy bird game built using React.js",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -37,7 +45,7 @@ const projects = [{
         Githublink: "",
     },
     {
-        title: "Flappy Bird",
+        title: "Machine Problem",
         cardImage: "assets/images/project-page/flappybird.png",
         description: "Flappy bird game built using React.js",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -45,7 +53,7 @@ const projects = [{
         Githublink: "",
     },
     {
-        title: "Flappy Bird",
+        title: "Machine Problem Finals",
         cardImage: "assets/images/project-page/flappybird.png",
         description: "Flappy bird game built using React.js",
         tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",

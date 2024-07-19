@@ -18,13 +18,6 @@ const exp = [{
         time: "Software Development",
         desp: "The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO. It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens. ",
     },
-    {
-        title: "Capstone",
-        cardImage: "assets/images/experience-page/gg.png",
-        place: "Scope and Limitations",
-        time: "( )",
-        desp: "<li>This study focuses on the digital optimization of the citizen complaint process involving barangay personnel and CENRO in the community of Barangay San Francisco, Binan. The primary users are the barangay personnel, CENRO personnel and Citizens.</li> ",
-    },
 
 ];
 
@@ -62,34 +55,34 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [{
-        "title": "Front-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
-        "description": "Designed and implemented user-friendly web interfaces, ensuring seamless user experience and responsiveness."
+        "title": "Aseprite",
+        "cardImage": "assets/images/experience-page/aseprite.png",
+        "description": ""
     },
     {
-        "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
-        "description": "Developed and maintained server-side logic, and database management"
+        "title": "VS Code",
+        "cardImage": "assets/images/experience-page/vscode.png",
+        "description": ""
     },
     {
-        "title": "Front-end Web-Developer",
-        "cardImage": "assets/images/experience-page/gg.png",
-        "description": "Developed and maintained server-side logic, and database management"
+        "title": "Figma",
+        "cardImage": "assets/images/experience-page/figma.png",
+        "description": ""
     },
     {
-        "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/gg.png",
-        "description": "Developed and maintained server-side logic, and database management"
+        "title": "Canva",
+        "cardImage": "assets/images/experience-page/canva.png",
+        "description": ""
     },
     {
-        "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
-        "description": "Developed and maintained server-side logic, and database management"
+        "title": "Adobe Photoshop",
+        "cardImage": "assets/images/experience-page/adobeps.png",
+        "description": ""
     },
     {
-        "title": "Back-end Web-Developer",
-        "cardImage": "assets/images/experience-page/Santarosa.png",
-        "description": "Developed and maintained server-side logic, and database management"
+        "title": "Adobe Premiere Pro",
+        "cardImage": "assets/images/experience-page/adobepr.png",
+        "description": ""
     },
 ];
 
