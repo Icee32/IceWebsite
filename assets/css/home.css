@@ -39,6 +39,10 @@ html[data-theme="dark"] {
 
 /* Light mode styles */
 
+.img {
+    z-index: 100;
+}
+
 .download-button {
     display: inline-block;
     text-decoration: none;
