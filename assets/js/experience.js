@@ -119,7 +119,7 @@ const mentor = [{
         title: "CompTIA Labs / Certificate",
         subtitle: "IT Fundamentals",
         image: "assets/images/experience-page/COMPTIA.png",
-        desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
+        desp: "Gain a solid foundation in essential IT concepts and skills with the CompTIA IT Fundamentals certification. This course covers basic computing, software development, database use, and IT infrastructure, preparing you for further studies or entry-level IT roles.",
         href: "assets/images/experience-page/compTIA proof.jpg"
     },
     {
