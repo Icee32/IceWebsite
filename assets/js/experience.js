@@ -15,8 +15,15 @@ const exp = [{
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
         place: "Green Guardian",
-        time: "Software Development",
+        time: "HTML, CSS, JAVASCRIPT, BOOTSTRAP, MYSQL, IOT",
         desp: "The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO. It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens. ",
+    },
+    {
+        title: "Machine Problem",
+        cardImage: "assets/images/experience-page/CSHARP.png",
+        place: "Temperature and Humidity Calibration Monitoring System",
+        time: "C#, ASP.NET, XAMARIN, MYSQL, IOT",
+        desp: "A smart system utilizes IoT technology to track variations in temperature and humidity. It features LEDs that display the status of the machine, and includes a button that, when pressed, stabilizes the environment in response to detected changes.",
     },
 
 ];
@@ -111,7 +118,7 @@ const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [{
         title: "CompTIA Labs / Certificate",
         subtitle: "IT Fundamentals",
-        image: "assets/images/experience-page/Fortinet.png",
+        image: "assets/images/experience-page/COMPTIA.png",
         desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
         href: "assets/images/experience-page/compTIA proof.jpg"
     },
