@@ -8,24 +8,23 @@ const exp = [{
         title: "Internship",
         cardImage: "assets/images/experience-page/SANTAROSA.png",
         place: "City Government of Santa Rosa",
-        time: "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
-        desp: "Developed a government vaccination page aimed at facilitating the vaccination process for citizens, leveraging PHP and SQL to create dynamic forms that fetch and display real-time data from databases. The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard. Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems",
+        time: "HTML, CSS, PHP, JAVASCRIPT, BOOTSTRAP",
+        desp: "<li>Developed a government vaccination page aimed at facilitating the vaccination process for citizens.</li><li>The system records HPV, flu, pneumonia vaccines, with flexibility to add more types as needed, and includes tracking logs in the admin dashboard.</li><li> Each vaccine type and dose is managed in separate database tables. The practicum project focuses on registration and data management for vaccinations, excluding features like appointment scheduling and integration with existing government systems</li>",
     },
     {
         title: "Capstone",
         cardImage: "assets/images/experience-page/gg.png",
         place: "Green Guardian",
         time: "HTML, CSS, JAVASCRIPT, BOOTSTRAP, MYSQL, IOT",
-        desp: "The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO. It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens. ",
+        desp: "<li>The project aims to design and implement an IT infrastructure incorporating IoT technology for real-time monitoring and detection of open plastic combustion in Barangay San Francisco and CENRO.</li><li> It focuses on optimizing the digital citizen complaint process involving barangay and CENRO personnel in Binan's Barangay San Francisco community. Primary users include barangay personnel, CENRO personnel, and citizens.</li> ",
     },
     {
         title: "Machine Problem",
         cardImage: "assets/images/experience-page/CSHARP.png",
         place: "Temperature and Humidity Calibration Monitoring System",
         time: "C#, ASP.NET, XAMARIN, MYSQL, IOT",
-        desp: "A smart system utilizes IoT technology to track variations in temperature and humidity. It features LEDs that display the status of the machine, and includes a button that, when pressed, stabilizes the environment in response to detected changes.",
+        desp: "<li>A smart system utilizes IoT technology to track variations in temperature and humidity.</li><li> It features LEDs that display the status of the machine, and includes a button that, when pressed, stabilizes the environment in response to detected changes.</li>",
     },
-
 ];
 
 const showCards2 = () => {
@@ -75,6 +74,21 @@ const volunteershipcards = [{
         "title": "Figma",
         "cardImage": "assets/images/experience-page/figma.png",
         "description": "A collaborative interface design tool that allows multiple users to design and prototype in real-time, streamlining the design workflow."
+    },
+    {
+        "title": "Laravel",
+        "cardImage": "assets/images/experience-page/Laravel.png",
+        "description": "Laravel is a web application framework with expressive, elegant syntax. It is designed for web artisans to create seamless web applications with a robust and easy-to-understand structure."
+    },
+    {
+        "title": "Arduino",
+        "cardImage": "assets/images/experience-page/arduino.png",
+        "description": "Arduino is an open-source electronics platform based on easy-to-use hardware and software. It is intended for anyone making interactive projects."
+    },
+    {
+        "title": "Xamarin",
+        "cardImage": "assets/images/experience-page/xamarin.png",
+        "description": "Xamarin is an open-source platform for building modern and performant applications for iOS, Android, and Windows with .NET. It allows developers to use a single codebase to create cross-platform applications."
     },
     {
         "title": "Canva",
@@ -127,21 +141,14 @@ const mentor = [{
         subtitle: "Network Security Associate",
         image: "assets/images/experience-page/Fortinet.png",
         desp: "is an entry-level certification providing essential knowledge in network security. It covers basics like security policies, threat analysis, firewall operation, and key technologies, ideal for beginners in the field.",
-        href: "assets/images/experience-page/Course_Completion_Certificate_NSE1.pdf"
+        href: "assets/images/experience-page/NSE_1_Certification.pdf"
     },
     {
         title: "NSE 2 / Certificate",
         subtitle: "Network Secuirty Associate 2",
         image: "assets/images/experience-page/Fortinet.png",
         desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
-        href: "assets/images/experience-page/Course_Completion_Certificate_NSE2.pdf"
-    },
-    {
-        title: "NSE 2 / Certificate",
-        subtitle: "Network Secuirty Associate 2",
-        image: "assets/images/experience-page/Fortinet.png",
-        desp: "advances skills in network security with topics like secure networking, VPNs, content filtering, and IPS. It targets professionals seeking to deepen their knowledge in implementing and managing robust network security solutions.",
-        href: "assets/images/experience-page/Course_Completion_Certificate_NSE2.pdf"
+        href: "assets/images/experience-page/NSE_2_Certification.pdf"
     },
     {
         title: "Xaltius / Seminar",

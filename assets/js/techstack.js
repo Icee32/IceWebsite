@@ -4,13 +4,33 @@ AOS.init();
 
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [{
+        langImage: "assets/images/techstack-page/webdev.png", // Replace with appropriate image
+        langName: "Web Developer",
+        langDesc: "<li>Builds interactive websites and applications using HTML, CSS, PHP, and JavaScript and Focuses on user experience and website performance.</li>"
+    },
+    {
+        langImage: "assets/images/techstack-page/gamecon.png", // Replace with game development icon
+        langName: "Aspiring Game Developer",
+        langDesc: "<li>Enthusiastic about creating immersive game worlds.</li><li>Learning game development tools and engines and Passionate about storytelling and character development.</li>"
+    },
+    {
+        langImage: "assets/images/techstack-page/pixelart.png", // Replace with pixel art icon
+        langName: "Pixel Artist",
+        langDesc: "<li>Creates detailed and visually appealing pixel art graphics.</li><li>Skilled in using pixel art software and tools and Passionate about retro-style and indie game aesthetics.</li>"
+    },
+    {
+        langImage: "assets/images/techstack-page/ior.png", // Replace with IoT icon
+        langName: "IoT Enthusiast",
+        langDesc: "<li>Exploring the potential of IoT in various applications and Learning about hardware and software integration.</li>"
+    },
+    {
         langImage: "assets/images/techstack-page/html.png",
-        langName: "HyperText Markup Language",
+        langName: "HyperText Markup Language / HTML",
         langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
     },
     {
         langImage: "assets/images/techstack-page/css.png",
-        langName: "Cascading Style Sheets",
+        langName: "Cascading Style Sheets / CSS",
         langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
     },
     {
@@ -47,21 +67,6 @@ const techStack = [{
         langImage: "assets/images/techstack-page/bootstrap.png",
         langName: "Bootstrap",
         langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
-    },
-    {
-        langImage: "assets/images/techstack-page/Laravel.png",
-        langName: "Laravel",
-        langDesc: "<li>Laravel is a web application framework with expressive, elegant syntax. It is designed for web artisans to create seamless web applications with a robust and easy-to-understand structure.</li>"
-    },
-    {
-        langImage: "assets/images/techstack-page/arduino.png",
-        langName: "Arduino",
-        langDesc: "<li>Arduino is an open-source electronics platform based on easy-to-use hardware and software. It is intended for anyone making interactive projects, allowing them to create digital devices and interactive objects that can sense and control objects in the physical world.</li>"
-    },
-    {
-        langImage: "assets/images/techstack-page/xamarin.png",
-        langName: "Xamarin",
-        langDesc: "<li>Xamarin is an open-source platform for building modern and performant applications for iOS, Android, and Windows with .NET. It allows developers to use a single codebase to create cross-platform applications.</li>"
     },
     {
         langImage: "assets/images/techstack-page/git.png",
