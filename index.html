@@ -62,19 +62,34 @@
 
     <!--Dynamic Nav Bar-->
 
-    <!--Particles effect-->
-    <div id="home">
-        <section class="center">
-            <div id="particles-js"></div>
-        </section>
-    </div>
+
     <center>
         <!-- Home Section -->
         <div class="text col-sm-6" style="margin-top: 140px;">Hi <span class="wave"><img src="assets/images/Hand.gif"
                     width="35px"></span>&nbsp;, I'm <span class="header">Ice Sarmiento</span>
             <div class="center">
+                import img06 from './06.png' //"
+
+                <div className="content">
+                    <div className="cards">
+                        {jsonData.map((info) => { return (
+                        <div className="card" key={info.id}>
+                            <div className="card-head">
+                                <img src={img06} /> // src as var
+                                <div className="icon-body">
+                                    <FiGithub className="git-icon" />
+                                </div>
+                            </div>
+                            <h3>{info.name}</h3>
+                            <div className="desc">{info.description}</div>
+                            <div className="stack">{info.stack}</div>
+                        </div>
+                        ); })}
+                    </div>
+                </div>
+
                 <div>
-                    <img src="./assets/images/project-page/chess.JPG" alt="" class="rounded-circle" height="300" width="300">
+                    <img src="./assets/next/static/media/ICE.png" alt="" class="rounded-circle" height="300" width="300">
                 </div>
                 <br />
                 <span style="display: inline;">I am into <span class="animated-text"
